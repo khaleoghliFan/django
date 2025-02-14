@@ -1,0 +1,42 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> {% block title%}{% endblock %}</title>
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+
+
+<body onload="return ran_col()" dir="auto">
+    <header>
+        <div class="logo">
+            <h1>
+                MIM Codes
+            </h1>
+        </div>
+        <nav class="nav_head">
+             <a href="{%url 'blog' %}">blog site</a>
+             <a href="{%url 'home' %}">Home site</a>
+        </nav>
+
+    </header>
+<div class="container">
+
+    <h1>{%block content%}
+        {% endblock%}</h1>
+</div>
+ <footer>
+        <h4>
+            @Haniehkhl
+        </h4>
+    </footer>
+ <script type="text/javascript" src="{% static 'js/script.js'%}"></script>
+
+
+</body>
+
+</html>
