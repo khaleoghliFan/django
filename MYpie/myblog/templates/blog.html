@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+
+{% block title%}home{% endblock %}
+{% block header%}This is Home{% endblock %}
+{% block content%}
+ <div class="container">
+        <section class="main">
+                {% for i in item %}
+            <div class="card">
+                <div class="card-head" id="posts">
+                        <h2 class="category">{{ i.name }}</h2>
+                    </div>
+
+            </div>
+            {%endfor%}
+        </section>
+
+    </div>
+
+
+{% endblock %}

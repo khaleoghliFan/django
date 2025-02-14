@@ -1,0 +1,32 @@
+{%extends 'base.html'%}
+
+{% block title%}home{% endblock %}
+{% block header%}This is Home{% endblock %}
+{% block content%}
+ <div class="container">
+        <section class="main">
+                {% for post in posts %}
+            <div class="card">
+                <div class="card-head" id="posts">
+
+                        <h2 class="category">{{ post.category }}</h2>
+                    </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title}}</h5>
+                    <a href=''>
+                        <p class="card-text">{{post.body|truncatechars:70}}</p>
+                    </a>
+                </div>
+            </div>
+            {%endfor%}
+        </section>
+
+    </div>
+<section class="Post">
+    {% for post in posts %}
+       <h1>{{ post.category }}</h1>
+    {% endfor %}
+</section>
+
+{% endblock %}
