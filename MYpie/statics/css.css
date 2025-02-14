@@ -1,0 +1,63 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Times New Roman";
+}
+
+header{
+        background: #254346;
+        height: 90px;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+    width: auto;
+
+}
+h1{
+
+
+    height: 20px;
+    align-content: normal;
+    text-align: left;
+    color: #000;
+    justify-content: left;
+    font-size: small;
+
+
+
+
+}
+nav{
+
+    display: flex;
+    justify-content: center;  /* Centers items horizontally */
+    align-items: center;      /* Centers items vertically */
+    gap: 20px;                /* Adds space between items */
+    height: 70px;             /* Adjust height as needed */
+    background-color: grey; /* Optional background */
+
+}
+
+nav a{
+    text-decoration: #ffff55;
+    color: #ffff55;
+    font-size: medium;
+
+
+
+}
+
+nav a:hover{
+    color:#254346
+}
+
+h5{
+
+    height: 20px;
+    align-content: normal;
+    text-align: left;
+    color: #000;
+    justify-content: left;
+    font-size: small;
+}
