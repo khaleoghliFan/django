@@ -1,0 +1,9 @@
+{%extends 'base.html'%}
+ {% block title%}detail{% endblock %}
+{%block content%}
+<p><strong> ID:</strong> {{object.pk}}</p>
+<p><strong> name:</strong>{{object.title}}</p>
+<p><strong>category:</strong>{{object.category}}</p>
+<p><strong>Description:</strong>{{object.body}}</p>
+<a href="{%url 'home'%}">back to home</a>
+{%endblock%}

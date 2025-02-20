@@ -1,0 +1,19 @@
+{%extends 'base.html'%}
+
+{% block title%}create{% endblock %}
+{% block header%}This is create_form{% endblock %}
+{% block content%}
+
+<section class="main-show">
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+
+    </form>
+
+</section>
+
+{% endblock %}

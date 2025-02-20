@@ -9,7 +9,10 @@
             <div class="card">
                 <div class="card-head" id="posts">
                         <h2 class="category">{{ i.name }}</h2>
-                    </div>
+                </div>
+                    <p>
+                        <a href="{% url 'detail' i.pk %}">{{ i.name }}</a>
+                    </p>
 
             </div>
             {%endfor%}

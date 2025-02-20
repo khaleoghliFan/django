@@ -1,0 +1,23 @@
+{%extends 'base.html'%}
+
+{% block title%}book{% endblock %}
+{% block header%}This is book{% endblock %}
+{% block content%}
+ <div class="container">
+        <section class="main">
+            <div class="card">
+                <div class="card-head" id="posts">
+                        <h2 class="category">{{ book.author_name}}</h2>
+                    </div>
+                        <p class="card-text">{{book.body}}</p>
+            </di>
+        </section>
+        <p><a href="{%url 'book' %}">go back</a></p>
+ </div>
+<section class="Post">
+    {% for post in posts %}
+       <h1>{{ post.category }}</h1>
+    {% endfor %}
+</section>
+
+{% endblock %}
