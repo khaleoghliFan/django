@@ -1,4 +1,4 @@
-This project is a To-Do List web application built using Django with a Perceptron-based priority system. 
+This project is a To-Do List with AI web application built using Django with a Perceptron-based priority system. 
 ### The main features include:
 - ask Management – Users can add, complete, and delete tasks.
 - Priority Calculation – Each task is assigned a priority based on urgency and importance using a Perceptron algorithm.
