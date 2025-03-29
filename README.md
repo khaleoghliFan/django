@@ -7,6 +7,6 @@ This repository contains essential Django project files to help you learn the ba
 - CSS & Static files for styling
 - No unnecessary files—just the ones that help you learn!
 # Projects:
-* [project is about blog which is contain posts](https://github.com/khaleoghliFan/django/tree/main/MYpie)
-* Todolist is contain task with priorities
+* [project is about blog which is contain posts](https://github.com/khaleoghliFan/django/tree/main/MYpie).
+* [Todolist is contain task with priorities](https://github.com/khaleoghliFan/django/tree/main/Todolist).
 
