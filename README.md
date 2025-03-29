@@ -6,6 +6,7 @@ This repository contains essential Django project files to help you learn the ba
 - Essential templates (HTML) for rendering UI
 - CSS & Static files for styling
 - No unnecessary files—just the ones that help you learn!
+# Projects:
 * second project is about blog which is contain posts
 * Todolist is contain task with priorities
-* 
+
